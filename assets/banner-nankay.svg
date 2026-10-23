@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-label="Ilustración de productos artesanales NANKAY">
+    <rect width="100%" height="100%" fill="#FFF8F4"/>
+    
+<g transform="scale(1 1.65)">
+<rect width="1200" height="430" fill="#FBE2D8"/>
+<circle cx="1020" cy="62" r="100" fill="#F8C7B7" opacity=".7"/>
+<path d="M0 0 H1200 V430 H0Z" fill="#FFF4EC" opacity=".42"/>
+<!-- decorative foliage -->
+<g fill="#6F9B78" opacity=".95">
+ <ellipse cx="92" cy="90" rx="28" ry="70" transform="rotate(-40 92 90)"/><ellipse cx="138" cy="67" rx="25" ry="65" transform="rotate(28 138 67)"/>
+ <ellipse cx="1080" cy="100" rx="25" ry="70" transform="rotate(-34 1080 100)"/><ellipse cx="1130" cy="85" rx="25" ry="70" transform="rotate(36 1130 85)"/>
+ <ellipse cx="980" cy="145" rx="22" ry="58" transform="rotate(-55 980 145)"/><ellipse cx="190" cy="140" rx="20" ry="52" transform="rotate(48 190 140)"/>
+</g>
+<g fill="#A9C5A1"><ellipse cx="62" cy="150" rx="20" ry="46" transform="rotate(-55 62 150)"/><ellipse cx="1160" cy="155" rx="18" ry="48" transform="rotate(52 1160 155)"/></g>
+<rect x="0" y="342" width="1200" height="88" fill="#C88D6C"/>
+<rect x="0" y="342" width="1200" height="13" fill="#E8B59A"/>
+<!-- teal pot -->
+<g transform="translate(155 0)"><path d="M-64 178 L-50 322 Q0 347 50 322 L64 178Z" fill="#75B9B0"/><ellipse cx="0" cy="179" rx="65" ry="17" fill="#A1D5CD"/><ellipse cx="0" cy="179" rx="52" ry="10" fill="#4C8F88"/><circle cx="-18" cy="237" r="7" fill="#344C4B"/><circle cx="18" cy="237" r="7" fill="#344C4B"/><path d="M-18 261 Q0 279 18 261" fill="none" stroke="#344C4B" stroke-width="5" stroke-linecap="round"/><circle cx="-34" cy="254" r="6" fill="#EFA1A0"/><circle cx="34" cy="254" r="6" fill="#EFA1A0"/><circle cx="-30" cy="294" r="5" fill="#D5EAE4"/><circle cx="0" cy="302" r="5" fill="#D5EAE4"/><circle cx="30" cy="294" r="5" fill="#D5EAE4"/></g>
+<!-- pink pot -->
+<g transform="translate(390 0)"><path d="M-66 194 L-50 322 Q0 343 50 322 L66 194Z" fill="#E9A0AA"/><ellipse cx="0" cy="194" rx="67" ry="17" fill="#F4C3C8"/><ellipse cx="0" cy="194" rx="53" ry="10" fill="#B86C7B"/><circle cx="-18" cy="246" r="7" fill="#59404A"/><circle cx="18" cy="246" r="7" fill="#59404A"/><path d="M-16 268 Q0 282 16 268" fill="none" stroke="#59404A" stroke-width="5" stroke-linecap="round"/><circle cx="-35" cy="260" r="6" fill="#F8D5A8"/><circle cx="35" cy="260" r="6" fill="#F8D5A8"/><circle cx="-30" cy="296" r="5" fill="#FFF0E6"/><circle cx="0" cy="302" r="5" fill="#FFF0E6"/><circle cx="30" cy="296" r="5" fill="#FFF0E6"/></g>
+<!-- plant pot -->
+<g transform="translate(655 0)"><path d="M-62 209 L-49 323 Q0 346 49 323 L62 209Z" fill="#D9B18D"/><ellipse cx="0" cy="209" rx="63" ry="16" fill="#EAD1B8"/><ellipse cx="0" cy="209" rx="51" ry="9" fill="#947259"/><path d="M0 210 C-8 163 -30 130 -51 119 C-38 164 -23 187 0 210" fill="#5E9270"/><path d="M0 210 C4 150 24 121 45 105 C41 154 23 186 0 210" fill="#7EAF82"/><path d="M0 210 C-2 151 0 114 3 82 C22 121 15 175 0 210" fill="#4D7C60"/><path d="M0 210 C-28 172 -47 167 -65 168 C-42 197 -20 204 0 210" fill="#9BC69B"/><circle cx="-19" cy="259" r="7" fill="#5D4C40"/><circle cx="19" cy="259" r="7" fill="#5D4C40"/><path d="M-18 280 Q0 296 18 280" fill="none" stroke="#5D4C40" stroke-width="5" stroke-linecap="round"/><circle cx="-34" cy="272" r="6" fill="#EFA1A0"/><circle cx="34" cy="272" r="6" fill="#EFA1A0"/></g>
+<!-- blue pot -->
+<g transform="translate(915 0)"><path d="M-68 184 L-52 322 Q0 344 52 322 L68 184Z" fill="#8EC9DE"/><ellipse cx="0" cy="184" rx="69" ry="17" fill="#B9E2ED"/><ellipse cx="0" cy="184" rx="54" ry="10" fill="#5E9DB4"/><circle cx="-20" cy="242" r="8" fill="#31566A"/><circle cx="20" cy="242" r="8" fill="#31566A"/><path d="M-16 265 Q0 278 16 265" fill="none" stroke="#31566A" stroke-width="5" stroke-linecap="round"/><circle cx="-37" cy="256" r="6" fill="#EFA1A0"/><circle cx="37" cy="256" r="6" fill="#EFA1A0"/><path d="M-34 294 l9 6 -9 6 -9 -6Z M0 299 l9 6 -9 6 -9 -6Z M34 294 l9 6 -9 6 -9 -6Z" fill="#E7F5F7"/></g>
+<!-- tiny candle and gift accents -->
+<g transform="translate(1060 0)"><rect x="-38" y="266" width="76" height="74" rx="9" fill="#F7D7A6"/><rect x="-43" y="258" width="86" height="15" rx="5" fill="#D69B67"/><path d="M0 245 C-18 230 -7 214 0 204 C7 214 18 230 0 245Z" fill="#E9A34A"/><path d="M0 239 C-8 229 -2 222 0 218 C5 227 8 231 0 239Z" fill="#FFF1C7"/></g>
+<g fill="#D48E92"><circle cx="270" cy="89" r="8"/><circle cx="303" cy="113" r="5"/><circle cx="760" cy="83" r="7"/><circle cx="797" cy="114" r="5"/></g>
+
+    </g>
+</svg>

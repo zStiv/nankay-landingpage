@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-label="Ilustración de productos artesanales NANKAY">
+    <rect width="100%" height="100%" fill="#FFF8F4"/>
+    
+<rect width="800" height="600" fill="#E4F2FA"/><circle cx="675" cy="105" r="95" fill="#B9DEEE" opacity=".75"/><rect x="65" y="475" width="670" height="20" rx="10" fill="#9CBFCB"/>
+<!-- tote bag -->
+<g transform="translate(210 0)"><path d="M-92 280 L-72 470 H72 L92 280Z" fill="#D8B8A0"/><path d="M-48 286 C-48 210 48 210 48 286" fill="none" stroke="#8D6C5B" stroke-width="14" stroke-linecap="round"/><rect x="-54" y="340" width="108" height="70" rx="12" fill="#FFF5EB"/><text x="0" y="370" text-anchor="middle" font-size="20" font-family="sans-serif" fill="#9B6B55" font-weight="700">NANKAY</text><text x="0" y="392" text-anchor="middle" font-size="13" font-family="sans-serif" fill="#9B6B55">detalle único</text></g>
+<!-- box -->
+<g transform="translate(470 0)"><path d="M-100 333 L0 285 L100 333 L0 385Z" fill="#E9A0AA"/><path d="M-100 333 L0 385 L0 470 L-100 414Z" fill="#C97C8D"/><path d="M100 333 L0 385 L0 470 L100 414Z" fill="#D98C9B"/><path d="M-100 333 L0 285 L100 333 L0 358Z" fill="#F4C6CD"/><path d="M0 285 L0 358" stroke="#FFF2E6" stroke-width="15"/><path d="M-100 333 L0 385 L100 333" fill="none" stroke="#FFF2E6" stroke-width="12"/><path d="M0 285 C-54 254 -50 220 -23 226 C-5 231 0 257 0 285Z" fill="#FFF2E6" stroke="#B96D7C" stroke-width="4"/><path d="M0 285 C54 254 50 220 23 226 C5 231 0 257 0 285Z" fill="#FFF2E6" stroke="#B96D7C" stroke-width="4"/></g>
+<!-- notebook -->
+<g transform="translate(650 0) rotate(7)"><rect x="-53" y="205" width="106" height="178" rx="8" fill="#84B8CA"/><rect x="-42" y="220" width="84" height="148" rx="5" fill="#EAF6F8"/><path d="M-27 252 H27 M-27 275 H27 M-27 298 H27 M-27 321 H12" stroke="#9ABFCB" stroke-width="5" stroke-linecap="round"/><circle cx="-53" cy="230" r="5" fill="#507D8E"/><circle cx="-53" cy="260" r="5" fill="#507D8E"/><circle cx="-53" cy="290" r="5" fill="#507D8E"/><circle cx="-53" cy="320" r="5" fill="#507D8E"/></g>
+
+    </svg>

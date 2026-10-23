@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-label="Ilustración de productos artesanales NANKAY">
+    <rect width="100%" height="100%" fill="#FFF8F4"/>
+    
+<rect width="800" height="600" fill="#E4F3E4"/><circle cx="130" cy="115" r="80" fill="#BBDDBB" opacity=".75"/><circle cx="680" cy="465" r="100" fill="#C5E4C3" opacity=".6"/><rect x="65" y="475" width="670" height="20" rx="10" fill="#B6CBAF"/>
+<!-- terrarium glass -->
+<path d="M220 235 Q210 190 260 180 H540 Q590 190 580 235 L540 443 Q530 468 500 468 H300 Q270 468 260 443Z" fill="#B8DCD4" fill-opacity=".55" stroke="#80B9A9" stroke-width="8"/>
+<ellipse cx="400" cy="235" rx="180" ry="36" fill="#DDF0E7" fill-opacity=".8" stroke="#80B9A9" stroke-width="8"/>
+<path d="M265 390 Q400 360 535 390 L520 442 Q510 456 490 456 H310 Q285 456 280 438Z" fill="#A8795B"/>
+<path d="M265 390 Q400 360 535 390 L535 410 Q400 384 265 410Z" fill="#C69B78"/>
+<g fill="#5E9B69"><ellipse cx="355" cy="320" rx="28" ry="72" transform="rotate(-35 355 320)"/><ellipse cx="425" cy="304" rx="28" ry="77" transform="rotate(25 425 304)"/><ellipse cx="385" cy="280" rx="25" ry="78"/><ellipse cx="465" cy="352" rx="24" ry="62" transform="rotate(55 465 352)"/><ellipse cx="330" cy="360" rx="22" ry="60" transform="rotate(-55 330 360)"/></g>
+<g fill="#86BC82"><ellipse cx="355" cy="318" rx="18" ry="55" transform="rotate(-35 355 318)"/><ellipse cx="425" cy="304" rx="18" ry="59" transform="rotate(25 425 304)"/><ellipse cx="385" cy="282" rx="16" ry="60"/><ellipse cx="465" cy="352" rx="15" ry="48" transform="rotate(55 465 352)"/><ellipse cx="330" cy="360" rx="14" ry="45" transform="rotate(-55 330 360)"/></g>
+<g fill="#E6B2A7"><circle cx="300" cy="390" r="13"/><circle cx="490" cy="393" r="13"/><circle cx="450" cy="410" r="9"/></g>
+
+    </svg>
