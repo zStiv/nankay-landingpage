@@ -5,12 +5,63 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="NANKAY: macetas decorativas, velas artesanales, recuerdos personalizados, detalles corporativos y mini jardines.">
   <title>NANKAY | Tu idea, hecha a mano</title>
+  <!-- Mantener este archivo junto a la carpeta assets del proyecto original. -->
   <link href="assets/bootstrap.min.css" rel="stylesheet">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    .hero-image {
+      display: block;
+      width: 100%;
+      height: 100%;
+      min-height: 260px;
+      object-fit: cover;
+    }
+
+    .product-image {
+      display: block;
+      width: 100%;
+      aspect-ratio: 4 / 3;
+      object-fit: cover;
+    }
+
+    .map-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .nav-link:focus-visible,
+    .btn:focus-visible {
+      outline: 3px solid rgba(220, 53, 69, 0.45);
+      outline-offset: 2px;
+    }
+
+    @media (max-width: 575.98px) {
+      .hero-image {
+        height: auto;
+        min-height: 0;
+        max-height: 300px;
+      }
+
+      .hero-copy {
+        padding: 1.5rem !important;
+      }
+    }
+
+    @media (min-width: 1200px) {
+      .hero-image {
+        min-height: 380px;
+      }
+    }
+  </style>
 </head>
 <body class="bg-body">
   <header id="inicio" class="container py-3 py-lg-4">
     <div class="row align-items-center g-3">
-      <div class="col-12 col-md-6">
+      <div class="col-12 col-md-5 col-lg-4 col-xl-4">
         <a href="#inicio" class="d-flex align-items-center gap-3 text-decoration-none text-body" aria-label="NANKAY, inicio">
           <span class="badge rounded-circle text-bg-danger p-3 fs-6">N</span>
           <span>
@@ -19,7 +70,7 @@
           </span>
         </a>
       </div>
-      <div class="col-12 col-md-6">
+      <div class="col-12 col-md-7 col-lg-8 col-xl-8">
         <nav class="nav nav-pills justify-content-center justify-content-md-end flex-wrap gap-2" aria-label="Navegación principal">
           <a class="nav-link active text-bg-danger" href="#productos">Productos</a>
           <a class="nav-link text-body" href="#servicios">Servicios</a>
@@ -33,10 +84,10 @@
   <main>
     <section class="container mb-5" aria-labelledby="titulo-portada">
       <div class="row g-0 align-items-stretch overflow-hidden rounded-4 shadow-sm bg-danger-subtle">
-        <div class="col-12 col-md-7">
-          <img src="assets/banner-nankay.svg" class="img-fluid w-100" alt="Macetas decorativas y detalles artesanales de NANKAY" width="1200" height="720">
+        <div class="col-12 col-md-6 col-lg-6 col-xl-7">
+          <img src="assets/banner-nankay.svg" class="img-fluid hero-image" alt="Macetas decorativas y detalles artesanales de NANKAY" width="1200" height="720">
         </div>
-        <div class="col-12 col-md-5 p-4 p-lg-5 d-flex flex-column justify-content-center">
+        <div class="col-12 col-md-6 col-lg-6 col-xl-5 p-4 p-lg-5 hero-copy d-flex flex-column justify-content-center">
           <span class="badge text-bg-danger align-self-start mb-3">Hecho con cariño</span>
           <h1 id="titulo-portada" class="display-6 fw-bold">Tu idea, hecha a mano</h1>
           <p class="lead">Creamos detalles que acompañan tus momentos especiales: desde una maceta decorativa hasta un recuerdo personalizado.</p>
@@ -49,19 +100,19 @@
 
     <section id="productos" class="container py-4" aria-labelledby="titulo-productos">
       <div class="row align-items-end g-3 mb-4">
-        <div class="col-12 col-md-8">
+        <div class="col-12 col-md-8 col-lg-9 col-xl-9">
           <p class="text-danger fw-semibold text-uppercase mb-1">Pequeños detalles, grandes momentos</p>
           <h2 id="titulo-productos" class="fw-bold mb-0">Nuestros productos</h2>
         </div>
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-md-4 col-lg-3 col-xl-3">
           <p class="text-secondary mb-0">Opciones artesanales para regalar, decorar y celebrar.</p>
         </div>
       </div>
 
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
-        <div class="col">
+      <div class="row g-4">
+        <div class="col-12 col-md-6 col-lg-4 col-xl-4">
           <article class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden">
-            <img src="assets/macetas.svg" class="card-img-top img-fluid" alt="Macetas decorativas de diferentes colores" width="800" height="600" loading="lazy">
+            <img src="assets/macetas.svg" class="card-img-top img-fluid product-image" alt="Macetas decorativas de diferentes colores" width="800" height="600" loading="lazy">
             <div class="card-body d-flex flex-column p-4">
               <h3 class="h5 card-title fw-bold">Macetas decorativas</h3>
               <p class="card-text text-secondary">Diseños alegres y originales para dar vida a tus espacios.</p>
@@ -69,9 +120,9 @@
             </div>
           </article>
         </div>
-        <div class="col">
+        <div class="col-12 col-md-6 col-lg-4 col-xl-4">
           <article class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden">
-            <img src="assets/velas.svg" class="card-img-top img-fluid" alt="Velas artesanales en recipientes hechos a mano" width="800" height="600" loading="lazy">
+            <img src="assets/velas.svg" class="card-img-top img-fluid product-image" alt="Velas artesanales en recipientes hechos a mano" width="800" height="600" loading="lazy">
             <div class="card-body d-flex flex-column p-4">
               <h3 class="h5 card-title fw-bold">Velas artesanales</h3>
               <p class="card-text text-secondary">Velas decorativas para crear ambientes cálidos y acogedores.</p>
@@ -79,9 +130,9 @@
             </div>
           </article>
         </div>
-        <div class="col">
+        <div class="col-12 col-md-6 col-lg-4 col-xl-4">
           <article class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden">
-            <img src="assets/recuerdos.svg" class="card-img-top img-fluid" alt="Cajas de regalo para bodas y cumpleaños" width="800" height="600" loading="lazy">
+            <img src="assets/recuerdos.svg" class="card-img-top img-fluid product-image" alt="Cajas de regalo para bodas y cumpleaños" width="800" height="600" loading="lazy">
             <div class="card-body d-flex flex-column p-4">
               <h3 class="h5 card-title fw-bold">Recuerdos de boda y cumpleaños</h3>
               <p class="card-text text-secondary">Detalles personalizados para compartir en tus celebraciones.</p>
@@ -89,9 +140,9 @@
             </div>
           </article>
         </div>
-        <div class="col">
+        <div class="col-12 col-md-6 col-lg-4 col-xl-4">
           <article class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden">
-            <img src="assets/corporativos.svg" class="card-img-top img-fluid" alt="Presentes y detalles para empresas" width="800" height="600" loading="lazy">
+            <img src="assets/corporativos.svg" class="card-img-top img-fluid product-image" alt="Presentes y detalles para empresas" width="800" height="600" loading="lazy">
             <div class="card-body d-flex flex-column p-4">
               <h3 class="h5 card-title fw-bold">Detalles corporativos</h3>
               <p class="card-text text-secondary">Obsequios para agradecer, reconocer y acompañar a tu equipo.</p>
@@ -99,9 +150,9 @@
             </div>
           </article>
         </div>
-        <div class="col">
+        <div class="col-12 col-md-6 col-lg-4 col-xl-4">
           <article class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden">
-            <img src="assets/mini-jardines.svg" class="card-img-top img-fluid" alt="Mini jardines y suculentas decorativas" width="800" height="600" loading="lazy">
+            <img src="assets/mini-jardines.svg" class="card-img-top img-fluid product-image" alt="Mini jardines y suculentas decorativas" width="800" height="600" loading="lazy">
             <div class="card-body d-flex flex-column p-4">
               <h3 class="h5 card-title fw-bold">Mini jardines</h3>
               <p class="card-text text-secondary">Pequeños espacios verdes para decorar escritorios y rincones del hogar.</p>
@@ -109,7 +160,7 @@
             </div>
           </article>
         </div>
-        <div class="col">
+        <div class="col-12 col-md-6 col-lg-4 col-xl-4">
           <article class="card h-100 border-0 shadow-sm rounded-4 bg-body-tertiary">
             <div class="card-body p-4 d-flex flex-column">
               <span class="badge text-bg-danger align-self-start mb-3">A tu medida</span>
@@ -129,14 +180,14 @@
 
     <section id="servicios" class="container py-5" aria-labelledby="titulo-servicios">
       <div class="row g-4 align-items-center">
-        <div class="col-12 col-lg-6">
+        <div class="col-12 col-md-6 col-lg-6 col-xl-5">
           <p class="text-danger fw-semibold text-uppercase mb-1">Lo hacemos contigo</p>
           <h2 id="titulo-servicios" class="fw-bold">Un detalle pensado para ti</h2>
           <p class="text-secondary">Cuéntanos la ocasión, los colores y la idea que tienes en mente. Puedes consultar opciones para regalos personales, celebraciones y detalles corporativos.</p>
           <a href="#contacto" class="btn btn-danger">Cuéntanos tu idea</a>
         </div>
-        <div class="col-12 col-lg-6">
-          <div class="card border-0 bg-warning-subtle rounded-4 shadow-sm">
+        <div class="col-12 col-md-6 col-lg-6 col-xl-7">
+          <div class="card border-0 bg-warning-subtle rounded-4 shadow-sm h-100">
             <div class="card-body p-4 p-lg-5">
               <h3 class="h5 fw-bold mb-3">¿Qué podemos preparar?</h3>
               <div class="list-group list-group-flush rounded-3">
@@ -152,16 +203,16 @@
     </section>
 
     <section id="ubicacion" class="container py-4" aria-labelledby="titulo-ubicacion">
-      <div class="row g-4 align-items-center rounded-4 bg-body-tertiary p-3 p-md-4">
-        <div class="col-12 col-lg-5">
+      <div class="row g-4 align-items-center rounded-4 bg-body-tertiary p-3 p-md-4 p-xl-5">
+        <div class="col-12 col-md-5 col-lg-4 col-xl-4">
           <p class="text-danger fw-semibold text-uppercase mb-1">Encuéntranos</p>
           <h2 id="titulo-ubicacion" class="fw-bold">Google Maps</h2>
           <p class="text-secondary">Consulta la búsqueda de NANKAY en Google Maps. La ubicación exacta deberá actualizarse cuando se disponga de la dirección del emprendimiento.</p>
           <a class="btn btn-outline-danger" href="https://www.google.com/maps/search/?api=1&amp;query=NANKAY+productos+artesanales" target="_blank" rel="noopener noreferrer">Abrir Google Maps</a>
         </div>
-        <div class="col-12 col-lg-7">
+        <div class="col-12 col-md-7 col-lg-8 col-xl-8">
           <div class="ratio ratio-4x3 rounded-4 overflow-hidden border bg-white">
-            <img src="assets/mapa.svg" class="w-100 h-100" alt="Ilustración de un mapa con marcador; no representa una dirección real" width="800" height="600" loading="lazy">
+            <img src="assets/mapa.svg" class="img-fluid map-image" alt="Ilustración de un mapa con marcador; no representa una dirección real" width="800" height="600" loading="lazy">
           </div>
         </div>
       </div>
@@ -169,12 +220,12 @@
 
     <section id="contacto" class="container py-5" aria-labelledby="titulo-contacto">
       <div class="row g-4 align-items-center">
-        <div class="col-12 col-md-7">
+        <div class="col-12 col-md-7 col-lg-8 col-xl-8">
           <p class="text-danger fw-semibold text-uppercase mb-1">Hablemos de tu idea</p>
           <h2 id="titulo-contacto" class="fw-bold">Contactos y redes sociales</h2>
           <p class="text-secondary mb-0">Estamos listos para ayudarte a convertir una idea en un detalle especial. Los enlaces de esta demostración deben reemplazarse por los perfiles oficiales de NANKAY antes de publicar.</p>
         </div>
-        <div class="col-12 col-md-5">
+        <div class="col-12 col-md-5 col-lg-4 col-xl-4">
           <div class="d-flex flex-wrap gap-2 justify-content-md-end">
             <a class="btn btn-outline-dark" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
             <a class="btn btn-outline-dark" href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a>
@@ -187,11 +238,11 @@
 
   <footer class="container border-top py-4">
     <div class="row g-2 align-items-center">
-      <div class="col-12 col-md-6 text-center text-md-start">
+      <div class="col-12 col-md-6 col-lg-6 text-center text-md-start">
         <span class="fw-bold">NANKAY</span>
-        <span class="text-secondary"> · Tu imaginas, nosotros lo creamos.</span>
+        <span class="text-secondary"> · Tú imaginas, nosotros lo creamos.</span>
       </div>
-      <div class="col-12 col-md-6 text-center text-md-end text-secondary small">
+      <div class="col-12 col-md-6 col-lg-6 text-center text-md-end text-secondary small">
         © 2026 NANKAY. Todos los derechos reservados.
       </div>
     </div>
